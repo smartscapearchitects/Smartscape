@@ -1,0 +1,5 @@
+<div class="hidden md:flex gap-8 text-sm font-medium text-gray-400">
+    <a href="#marketplace" class="hover:text-mint transition">Explore Designs</a>
+    <a href="showcase.html" class="text-white hover:text-mint transition font-bold">🎓 Discover Student Talent</a>
+    <a href="#how-it-works" class="hover:text-mint transition">How It Works</a>
+</div>
