@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartscape | Premium Spatial Design Marketplace</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        forest: '#14342B',
+                        mint: '#60D394',
+                        darkBg: '#0B0F0E',
+                        cardBg: '#131A18'
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-100 antialiased selection:bg-mint selection:text-darkBg">
+
+    <nav class="border-b border-gray-800 bg-darkBg/90 backdrop-blur-md fixed top-0 w-full z-50 px-6 py-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <img src="logo.png" alt="Smartscape Logo" class="w-10 h-10 object-contain rounded-full border border-mint/20 shadow-inner">
+                <span class="text-xl font-bold tracking-tight text-white">Smart<span class="text-mint">scape</span></span>
+            </div>
+            <div class="hidden md:flex gap-8 text-sm font-medium text-gray-400">
+                <a href="#marketplace" class="hover:text-mint transition">Explore Catalog</a>
+                <a href="#how-it-works" class="hover:text-mint transition">Direct P2P System</a>
+                <a href="#upload-zone" class="hover:text-mint transition">Creator Portal</a>
+            </div>
+            <div class="flex gap-4 items-center">
+                <span class="hidden sm:inline-flex items-center gap-1.5 text-xs text-gray-500 bg-cardBg border border-gray-800 px-3 py-1.5 rounded-full">
+                    <span class="w-2 h-2 rounded-full bg-mint animate-pulse"></span> Node: Live TZ
+                </span>
+                <button class="bg-mint text-darkBg text-xs font-bold px-5 py-2.5 rounded-xl hover:bg-white transition shadow-lg shadow-mint/10">Workspace Login</button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pt-36 pb-16 px-6 text-center max-w-5xl mx-auto">
+        <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-forest border border-mint/20 text-mint text-xs font-medium mb-6">
+            🇹🇿 Tanzania's Elite P2P Spatial Asset Exchange
+        </span>
+        <h1 class="text-4xl md:text-6xl font-bold tracking-tight text-white mb-6 leading-[1.15]">
+            Trade High-Fidelity Spatial Assets <br>
+            <span class="bg-gradient-to-r from-mint via-emerald-400 to-teal-500 bg-clip-text text-transparent">With Instant Direct Payouts</span>
+        </h1>
+        <p class="text-gray-400 text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
+            Review technical file specs and watermarked blueprints before sending payments. Funds settle instantly into the creator's mobile wallet via integrated gateways.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+            <a href="#marketplace" class="bg-mint text-darkBg font-bold px-8 py-4 rounded-xl hover:bg-white transition text-sm text-center tracking-wide">Browse Verified Layouts</a>
+            <a href="#how-it-works" class="bg-cardBg border border-gray-800 text-white font-semibold px-8 py-4 rounded-xl hover:border-gray-600 transition text-sm text-center">How Split Settlements Work</a>
+        </div>
+    </section>
+
+    <section id="marketplace" class="py-16 px-6 max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-4">
+            <div>
+                <h2 class="text-2xl md:text-3xl font-bold text-white mb-2">Verified Professional Packages</h2>
+                <p class="text-gray-400 text-xs md:text-sm">Pre-audited project documentation blueprints and 3D scenes ready for deployment.</p>
+            </div>
+            <div class="flex gap-2 bg-cardBg p-1 rounded-xl border border-gray-800 text-xs">
+                <button class="bg-forest text-mint px-4 py-2 rounded-lg font-semibold">All Assets</button>
+                <button class="text-gray-400 hover:text-white px-4 py-2 transition">Landscape</button>
+                <button class="text-gray-400 hover:text-white px-4 py-2 transition">Architecture</button>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-cardBg rounded-2xl overflow-hidden border border-gray-800 hover:border-mint/20 transition duration-300 flex flex-col">
+                <div class="h-48 bg-gradient-to-br from-forest to-emerald-950 flex flex-col justify-between p-4 relative">
+                    <div class="absolute inset-0 flex items-center justify-center opacity-[0.03] select-none pointer-events-none">
+                        <span class="text-3xl font-black tracking-widest text-white uppercase rotate-12">SMARTSCAPE PROTECTED</span>
+                    </div>
+                    <span class="bg-darkBg/90 backdrop-blur-sm text-mint text-[11px] px-2.5 py-1 rounded-md font-medium self-start border border-mint/10">Landscape</span>
+                    <span class="bg-mint text-darkBg text-[10px] font-bold px-2 py-0.5 rounded uppercase tracking-wider self-end shadow-sm">Verified Storage</span>
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h4 class="text-lg font-bold text-white mb-2">Biophilic Urban Courtyard Layout</h4>
+                        <p class="text-gray-400 text-xs mb-4 leading-relaxed">Complete with exact botanical planting schedules, sustainable drainage nodes (SuDS), and high-resolution Lumion environments.</p>
+                    </div>
+                    <div>
+                        <div class="border-t border-gray-800/60 pt-4 mb-4 grid grid-cols-2 gap-y-2 text-[11px] text-gray-500">
+                            <div>Compatibility: <span class="text-gray-300">Lumion 12 / .PLN</span></div>
+                            <div>Documentation: <span class="text-gray-300">Full Eco-Pack</span></div>
+                        </div>
+                        <div class="flex justify-between items-center pt-2">
+                            <div>
+                                <span class="text-[10px] text-gray-500 block uppercase font-semibold">Direct Cost</span>
+                                <span class="text-lg font-bold text-white">TZS 150,000</span>
+                            </div>
+                            <button onclick="openCheckout('Biophilic Urban Courtyard Layout', 150000, 'Athumani Design Labs')" class="bg-forest border border-mint/30 text-mint text-xs font-bold px-4 py-2.5 rounded-xl hover:bg-mint hover:text-darkBg transition shadow-md shadow-mint/5">Buy Direct</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-cardBg rounded-2xl overflow-hidden border border-gray-800 hover:border-mint/20 transition duration-300 flex flex-col">
+                <div class="h-48 bg-gradient-to-br from-emerald-900 to-slate-900 flex flex-col justify-between p-4 relative">
+                    <div class="absolute inset-0 flex items-center justify-center opacity-[0.03] select-none pointer-events-none">
+                        <span class="text-3xl font-black tracking-widest text-white uppercase rotate-12">SMARTSCAPE PROTECTED</span>
+                    </div>
+                    <span class="bg-darkBg/90 backdrop-blur-sm text-mint text-[11px] px-2.5 py-1 rounded-md font-medium self-start border border-mint/10">Architecture</span>
+                    <span class="bg-mint text-darkBg text-[10px] font-bold px-2 py-0.5 rounded uppercase tracking-wider self-end shadow-sm">Verified Storage</span>
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h4 class="text-lg font-bold text-white mb-2">Modern Mixed-Use Commercial Model</h4>
+                        <p class="text-gray-400 text-xs mb-4 leading-relaxed">High-resolution parametric schematic plans optimized completely for Revit structural grids and clean ArchiCAD layers.</p>
+                    </div>
+                    <div>
+                        <div class="border-t border-gray-800/60 pt-4 mb-4 grid grid-cols-2 gap-y-2 text-[11px] text-gray-500">
+                            <div>Compatibility: <span class="text-gray-300">Revit / ArchiCAD</span></div>
+                            <div>Documentation: <span class="text-gray-300">Complete CAD Pack</span></div>
+                        </div>
+                        <div class="flex justify-between items-center pt-2">
+                            <div>
+                                <span class="text-[10px] text-gray-500 block uppercase font-semibold">Direct Cost</span>
+                                <span class="text-lg font-bold text-white">TZS 280,000</span>
+                            </div>
+                            <button onclick="openCheckout('Modern Mixed-Use Commercial Model', 280000, 'Studio Scape Tanzania')" class="bg-forest border border-mint/30 text-mint text-xs font-bold px-4 py-2.5 rounded-xl hover:bg-mint hover:text-darkBg transition shadow-md shadow-mint/5">Buy Direct</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-cardBg rounded-2xl overflow-hidden border border-gray-800 hover:border-mint/20 transition duration-300 flex flex-col">
+                <div class="h-48 bg-gradient-to-br from-teal-950 to-emerald-900 flex flex-col justify-between p-4 relative">
+                    <div class="absolute inset-0 flex items-center justify-center opacity-[0.03] select-none pointer-events-none">
+                        <span class="text-3xl font-black tracking-widest text-white uppercase rotate-12">SMARTSCAPE PROTECTED</span>
+                    </div>
+                    <span class="bg-darkBg/90 backdrop-blur-sm text-mint text-[11px] px-2.5 py-1 rounded-md font-medium self-start border border-mint/10">Interior</span>
+                    <span class="bg-mint text-darkBg text-[10px] font-bold px-2 py-0.5 rounded uppercase tracking-wider self-end shadow-sm">Verified Storage</span>
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h4 class="text-lg font-bold text-white mb-2">Minimalist Executive Office Suite</h4>
+                        <p class="text-gray-400 text-xs mb-4 leading-relaxed">Complete interior setup featuring engineered furniture components, custom texture mapping arrays, and optimized lighting maps.</p>
+                    </div>
+                    <div>
+                        <div class="border-t border-gray-800/60 pt-4 mb-4 grid grid-cols-2 gap-y-2 text-[11px] text-gray-500">
+                            <div>Compatibility: <span class="text-gray-300">3ds Max / .FBX</span></div>
+                            <div>Documentation: <span class="text-gray-300">FF&E Schedule</span></div>
+                        </div>
+                        <div class="flex justify-between items-center pt-2">
+                            <div>
+                                <span class="text-[10px] text-gray-500 block uppercase font-semibold">Direct Cost</span>
+                                <span class="text-lg font-bold text-white">TZS 180,000</span>
+                            </div>
+                            <button onclick="openCheckout('Minimalist Executive Office Suite', 180000, 'Kariakoo Space Lab')" class="bg-forest border border-mint/30 text-mint text-xs font-bold px-4 py-2.5 rounded-xl hover:bg-mint hover:text-darkBg transition shadow-md shadow-mint/5">Buy Direct</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="py-20 bg-forest/10 border-y border-gray-800/60 px-6">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-3xl font-bold text-white mb-4">The Direct Settlement P2P Mechanism</h2>
+            <p class="text-gray-400 max-w-2xl mx-auto mb-16 text-xs md:text-sm">How our backend gateway processes transactions safely without long holding periods for creators.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 relative">
+                <div class="flex flex-col items-center">
+                    <div class="w-12 h-12 rounded-full bg-forest border border-mint text-mint flex items-center justify-center font-bold mb-4 shadow-md">1</div>
+                    <h4 class="text-lg font-semibold text-white mb-2">Technical Sign-Off</h4>
+                    <p class="text-gray-400 text-xs max-w-xs leading-relaxed">Review the audited file extensions, version metrics, and bounding dimensions directly on the asset layout matrix.</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="w-12 h-12 rounded-full bg-forest border border-mint text-mint flex items-center justify-center font-bold mb-4 shadow-md">2</div>
+                    <h4 class="text-lg font-semibold text-white mb-2">Direct Mobile Transfer</h4>
+                    <p class="text-gray-400 text-xs max-w-xs leading-relaxed">Confirm the USSD secure push notification. Funds are routed directly into the designer's personal mobile network wallet.</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="w-12 h-12 rounded-full bg-mint text-darkBg flex items-center justify-center font-bold mb-4 shadow-md">3</div>
+                    <h4 class="text-lg font-semibold text-white mb-2">Instant Token Delivery</h4>
+                    <p class="text-gray-400 text-xs max-w-xs leading-relaxed">The moment the payment confirmation webhook hits, cloud engines shrinkwrap and release a secure download token to safely fetch original packages.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="upload-zone" class="py-20 px-6 max-w-3xl mx-auto">
+        <div class="bg-cardBg p-8 rounded-2xl border border-gray-800 shadow-2xl">
+            <div class="flex justify-between items-start mb-6">
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-1">Creator Sandbox Portal</h3>
+                    <p class="text-xs text-gray-400">Initialize metadata schema to configure your secure direct checkout token.</p>
+                </div>
+                <span class="bg-forest border border-mint/20 text-mint text-[10px] font-bold px-3 py-1 rounded-md uppercase tracking-wider">P2P Node Active</span>
+            </div>
+
+            <div class="space-y-4">
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-[11px] font-bold text-gray-400 uppercase tracking-wider mb-2">Primary Software Workspace</label>
+                        <select class="w-full bg-darkBg border border-gray-800 rounded-xl px-4 py-3 text-xs text-gray-300 focus:outline-none focus:border-mint transition">
+                            <option>ArchiCAD Workspace (.PLN)</option>
+                            <option>Lumion Environment (.LS12)</option>
+                            <option>Revit BIM Level 2 (.RVT)</option>
+                            <option>SketchUp Component (.SKP)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-[11px] font-bold text-gray-400 uppercase tracking-wider mb-2">Asking Price (TZS)</label>
+                        <input type="number" placeholder="e.g., 200,000" class="w-full bg-darkBg border border-gray-800 rounded-xl px-4 py-3 text-xs text-white placeholder-gray-600 focus:outline-none focus:border-mint transition">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-[11px] font-bold text-gray-400 uppercase tracking-wider mb-2">Your Settlement Wallet Number (For Direct Drops)</label>
+                    <div class="relative">
+                        <span class="absolute left-4 top-3 text-xs font-bold text-gray-600">+255</span>
+                        <input type="tel" placeholder="7XXXXXXXX" class="w-full bg-darkBg border border-gray-800 rounded-xl pl-16 pr-4 py-3 text-xs text-white focus:outline-none focus:border-mint transition tracking-widest">
+                    </div>
+                </div>
+                <div class="border-2 border-dashed border-gray-800 hover:border-mint/30 rounded-xl p-8 text-center bg-darkBg/50 cursor-pointer transition group">
+                    <p class="text-xs font-medium text-gray-300 mb-1 group-hover:text-mint transition">Drop engineering or visual package source folders here</p>
+                    <p class="text-[10px] text-gray-500">Cloud pipelines handle secure indexing up to 2GB</p>
+                </div>
+                <button type="button" class="w-full bg-mint text-darkBg text-xs font-bold py-4 rounded-xl hover:bg-white transition tracking-wide uppercase">Publish Architecture & Generate Link</button>
+            </div>
+        </div>
+    </section>
+
+    <div id="checkoutModal" class="fixed inset-0 bg-darkBg/90 backdrop-blur-sm z-50 hidden items-center justify-center p-4">
+        <div class="max-w-md w-full bg-cardBg border border-gray-800 p-6 rounded-2xl shadow-2xl relative">
+            <button onclick="closeCheckout()" class="absolute top-4 right-4 text-gray-500 hover:text-white text-sm">✕</button>
+            
+            <div class="flex items-center gap-3 mb-6 pb-4 border-b border-gray-800">
+                <img src="logo.png" alt="Smartscape Logo" class="w-8 h-8 object-contain rounded-full border border-mint/20">
+                <div>
+                    <h3 class="text-sm font-bold text-white">Direct Peer-to-Peer Gateway</h3>
+                    <p class="text-[10px] text-gray-500">Funds go directly to the verified project constructor</p>
+                </div>
+            </div>
+
+            <div class="bg-darkBg p-4 rounded-xl border border-gray-800/80 mb-5">
+                <span id="modalCreator" class="text-[9px] text-mint uppercase tracking-widest font-black block mb-1">Recipient Vendor</span>
+                <span id="modalAsset" class="text-xs font-bold text-white block mb-2">--</span>
+                <div class="border-t border-gray-800/60 pt-2 flex justify-between text-xs">
+                    <span class="text-gray-400">Direct P2P Settlement Amount:</span>
+                    <span id="modalPrice" class="font-bold text-mint">TZS --</span>
+                </div>
+            </div>
+
+            <label class="block text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-2">Select Network Carrier</label>
+            <div class="grid grid-cols-3 gap-2 mb-4 text-[11px] font-bold text-center">
+                <label class="border border-mint bg-forest/20 p-2.5 rounded-lg cursor-pointer block text-white">M-Pesa</label>
+                <label class="border border-gray-800 p-2.5 rounded-lg cursor-pointer block text-gray-500 hover:border-gray-700">Tigo Pesa</label>
+                <label class="border border-gray-800 p-2.5 rounded-lg cursor-pointer block text-gray-500 hover:border-gray-700">Airtel Money</label>
+            </div>
+
+            <div class="mb-5">
+                <label class="block text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-2">Your Mobile Wallet Number</label>
+                <div class="relative">
+                    <span class="absolute left-4 top-3 text-xs font-semibold text-gray-600">+255</span>
+                    <input type="tel" placeholder="712345678" class="w-full bg-darkBg border border-gray-800 rounded-xl pl-14 pr-4 py-3 text-xs text-white focus:outline-none focus:border-mint tracking-wider">
+                </div>
+            </div>
+
+            <div class="bg-amber-500/5 border border-amber-500/20 p-3.5 rounded-xl mb-5 text-[11px] text-gray-400 leading-relaxed">
+                ⚠️ <strong class="text-white font-medium">Instant Clearance Rule:</strong> This payment transfers the asset price straight to the vendor's line. Ensure you have cross-checked the data metrics blueprint before authorizing the transaction.
+            </div>
+
+            <button onclick="simulateSuccess()" class="w-full bg-mint text-darkBg font-bold py-3.5 rounded-xl text-xs uppercase tracking-wide transition hover:bg-white">
+                Authorize P2P Core Transfer
+            </button>
+        </div>
+    </div>
+
+    <footer class="py-12 border-t border-gray-800 text-center px-6 text-gray-600 text-xs">
+        <p>&copy; 2026 Smartscape Architecture Platform. System node active. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function openCheckout(assetName, price, creator) {
+            document.getElementById('modalAsset').innerText = assetName;
+            document.getElementById('modalPrice').innerText = 'TZS ' + price.toLocaleString();
+            document.getElementById('modalCreator').innerText = 'Recipient: ' + creator;
+            
+            const modal = document.getElementById('checkoutModal');
+            modal.style.display = 'flex';
+        }
+
+        function closeCheckout() {
+            document.getElementById('checkoutModal').style.display = 'none';
+        }
+
+        function simulateSuccess() {
+            alert('🔒 Secure Webhook Signal Sent:\n\n1. Mobile network USSD notification dispatched.\n2. P2P split routine routed asset value directly to vendor.\n3. Secure download hash cleared.');
+            closeCheckout();
+        }
+    </script>
+</body>
+</html>
